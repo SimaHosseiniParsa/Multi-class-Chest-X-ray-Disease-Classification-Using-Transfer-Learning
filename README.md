@@ -1,4 +1,4 @@
-#<p align="center">
+<p align="center">
   <img src="images/xray_banner.png" width="100%">
 </p>
 
@@ -62,6 +62,9 @@ Multi-class-Chest-X-ray-Disease-Classification-Using-Transfer-Learning/
 │
 ├── notebooks/
 │   └── NIH_Chest_Xray_Classification.ipynb
+│
+├── data_preparation/
+│   └── Selected_Classes.ipynb
 │
 ├── images/
 │   ├── xray_banner.png
