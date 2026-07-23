@@ -60,23 +60,24 @@ Multi-class-Chest-X-ray-Disease-Classification-Using-Transfer-Learning/
 ├── Project_Report.pdf
 ├── requirements.txt
 │
+├── data_preparation/
+│   ├── Selected_Classes.ipynb
+│   └── selected_images_7class.csv
+│
 ├── notebooks/
 │   └── NIH_Chest_Xray_Classification.ipynb
 │
-├── data_preparation/
-│   └── Selected_Classes.ipynb
+├── results/
+│   ├── accuracy_curve.png
+│   ├── loss_curve.png
+│   ├── confusion_matrix.png
+│   ├── metrics.txt
+│   └── classification_report.txt
 │
-├── images/
-│   ├── xray_banner.png
-│   ├── sample_xrays.png
-│   └── pipeline.png
-│
-└── results/
-    ├── accuracy_curve.png
-    ├── loss_curve.png
-    ├── confusion_matrix.png
-    ├── classification_report.txt
-    └── metrics.txt
+└── images/
+    ├── xray_banner.png
+    ├── pipeline.png
+    └── sample_xrays.png
 ```
 ## Project Pipeline
 
